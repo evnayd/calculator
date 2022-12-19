@@ -1,11 +1,10 @@
 import React from 'react';
-//import Button from 'components/Button';
 
 const Buttons = () => {
 
     return (
-        <div className="buttons-wrapper flex justify-between flex-wrap">
-            <div className='w-full mb-4 mt-8'>
+        <div className="buttons-wrapper flex justify-between flex-wrap md:px-2">
+            <div className='w-full mb-4 mt-8 flex justify-around'>
         <button className="button"
         name="2" onClick={() => ''}>1</button>
         <button className="button"
@@ -16,7 +15,7 @@ const Buttons = () => {
         name="+" onClick={() => ''}>+</button>
         </div>
 
-        <div className='w-full mb-4'>
+        <div className='w-full mb-4 flex justify-around'>
         <button className="button"
         name="4" onClick={() => ''}>4</button>
         <button className="button"
@@ -27,7 +26,7 @@ const Buttons = () => {
         name="-" onClick={() => ''}>-</button>
         </div>
 
-        <div className='w-full mb-4'>
+        <div className='w-full mb-4 flex justify-around'>
         <button className="button"
         name="7" onClick={() => ''}>7</button>
         <button className="button"
@@ -38,12 +37,12 @@ const Buttons = () => {
         name="*" onClick={() => ''}>x</button>
         </div>
 
-        <div className='w-full'>
+        <div className='w-full flex justify-around'>
         <button className="button"
         name="." onClick={() => ''}>.</button>
         <button className="button"
         name="0" onClick={() => ''}>0</button>
-        <button className="button"
+        <button className="button button--answer"
         name="=" onClick={() => ''}>=</button>
         <button className="button"
         name="/" onClick={() => ''}>÷</button>
