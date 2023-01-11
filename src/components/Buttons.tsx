@@ -42,7 +42,6 @@ const Buttons = () => {
             }
        if (operator === '÷'){     
         const result  = firstNumber / secondNumber
-        console.log('result after /', result)
         setfirstNumber(result)
         }
         setsecondNumber('')
